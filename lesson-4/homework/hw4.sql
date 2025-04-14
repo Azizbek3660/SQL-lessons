@@ -258,6 +258,10 @@ SELECT DISTINCT Category,ProductName,Price
       ,[Email]
       ,[Country]
   FROM [master].[dbo].[Employees]
+
+
+
+      дфые
   ORDER BY [SALARY] DESC
 
   27-Write a query that filters the Orders table for orders placed in the last 180 days using BETWEEN and CURRENT_DATE. (Search how to get the current date)
