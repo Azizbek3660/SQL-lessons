@@ -90,7 +90,7 @@ where productname like  '%oo%'
 
 18-Using Products and Products_Discounted tables, compare product IDs using INTERSECT.
 
-select productid from Productss
+select productid from Products
 intersect
 select productid from Products_Discounted
 
